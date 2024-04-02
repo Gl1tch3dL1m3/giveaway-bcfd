@@ -12,8 +12,9 @@ try {
     } catch(e) {joined = true}
 
     if (joined) {
-      var genuser = users$channelID[Math.floor(Math.random() * users$channelID.length)]
-      msg = "A new winner is: **" + genuser + "**! 🎉"
+      var gen = users$channelID[Math.floor(Math.random() * users$channelID.length)]
+      var msg = (gen == null) ? "nobody" : gen
+      msg = "A new winner is: **" + msg + "**! 🎉"
 
   } else {
     title = "Error!"
