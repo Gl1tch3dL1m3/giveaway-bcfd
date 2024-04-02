@@ -6,9 +6,10 @@ var desc = ""
 
 try {
   if (creator$channelID == $ID) {
-    var genuser = users$channelID[Math.floor(Math.random() * users$channelID.length)]
+    var gen = users$channelID[Math.floor(Math.random() * users$channelID.length)]
+    var msg = (gen == null) ? "nobody" : gen
     title = "Giveaway has ended! 🎉"
-    desc = "The winner of**" + prize$channelID + "** is **" + genuser + "**! Congratulations! 🎉"
+    desc = "The winner of**" + prize$channelID + "** is **" + msg + "**! Congratulations! 🎉"
 
     delete prize$channelID
     delete joined$channelID
