@@ -4,10 +4,10 @@ Welcome to the source code! Feel free to use these scripts in any project you wa
 __Steps:__
 1. Create these commands:
 - help
-- new (Pharse ON, Reaction: 🎉)
-- end
-- reroll
-- 🎉 (Event: Reaction Add)
+- new (Embed Message, Pharse ON, Reaction: 🎉)
+- end (Embed Message)
+- reroll (Text Message)
+- 🎉 (Text Message, Event: Reaction Add)
 
 2. Insert scripts - don't forget to follow the instructions on each one!
 
