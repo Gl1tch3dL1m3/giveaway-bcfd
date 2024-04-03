@@ -8,7 +8,7 @@ __Steps:__
 - end (Embed Message)
 - reroll (Text Message)
 - 🎉 (Text Message, Event: Reaction Add)
-- participants (Text Message)
+- participants (Embed Message)
 
 2. Insert scripts - don't forget to follow the instructions on each one!
 
