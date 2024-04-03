@@ -1,6 +1,7 @@
 $eval
 // Add "get(desc)" in "description" field
 // and "get(footer)" in "footer" field
+// Insert this script only into ONE of your "new" commands
 
 var title = ""
 var desc = ""
