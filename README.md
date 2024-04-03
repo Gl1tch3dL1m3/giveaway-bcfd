@@ -1,14 +1,15 @@
-# Giveaway in BCFD
+# Giveaway in BCFD (v1.3)
 Welcome to the source code! Feel free to use these scripts in any project you want.
 
 __Steps:__
 1. Create these commands:
 - help
-- new (Embed Message, Pharse ON, Reaction: 🎉, **Administrator Privilege**)
+- new (Embed Message, Pharse ON, Reaction: 🎉)
 - end (Embed Message)
 - reroll (Text Message)
 - 🎉 (Text Message, Event: Reaction Add)
-- participants (Embed Message)
+- 👥 (Private Embed Message, Event: Reaction Add)
+- ❌ (Embed Message, Event: Reaction Add)
 
 2. Insert scripts - don't forget to follow the instructions on each one!
 
