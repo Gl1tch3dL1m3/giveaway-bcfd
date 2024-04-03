@@ -1,8 +1,10 @@
 $eval
 // Add "get(desc)" in "description" field
+// and "get(footer)" in "footer" field
 
 var title = ""
 var desc = ""
+var footer = ""
 
 if ("$messageAfterCommand" !== "") {
   var prize$channelID = (prize$channelID == null) ? null : prize$channelID
@@ -17,7 +19,8 @@ if ("$messageAfterCommand" !== "") {
     var users$channelID = []
     var creator$channelID = $ID
     title = "Giveaway! 🎉"
-    desc = "A new giveaway has just started! In this giveaway, the prize is:**" + prize$channelID + "**! React with 🎉 to join.\n\nThe giveaway creator can end this giveaway with `gw!end`."
+    desc = "A new giveaway has just started! In this giveaway, the prize is:**" + prize$channelID + "**! \n\nThe giveaway creator can end this giveaway with `gw!end`."
+    footer = "🎉 - Join the giveaway | 👥 - Sends a list of participants in DM | ❌ - Force giveaway cancellation (only admin)"
   }
 
 } else {
