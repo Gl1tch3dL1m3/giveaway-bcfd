@@ -11,7 +11,7 @@ __Steps:__
 - reroll (Text Message)
 - 🎉 (Text Message, Event: Reaction Add)
 - 👥 (Private Embed Message, Event: Reaction Add)
-- ❌ (Embed Message, Event: Reaction Add)
+- ❌ (Embed Message, Event: Reaction Add, **Administrator Privilege**)
 
 2. Insert scripts - don't forget to follow the instructions on each one!
 
