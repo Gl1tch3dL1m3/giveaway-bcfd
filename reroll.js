@@ -1,6 +1,4 @@
 $eval
-// Add "get(desc)" in "description" field
-
 var msg = ""
 
 try {
