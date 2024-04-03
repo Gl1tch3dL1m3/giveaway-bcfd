@@ -5,6 +5,8 @@ __Steps:__
 1. Create these commands:
 - help
 - new (Embed Message, Pharse ON, Reaction: 🎉)
+- new (Pharse ON, Reaction: 👥)
+- new (Pharse ON, Reaction: ❌)
 - end (Embed Message)
 - reroll (Text Message)
 - 🎉 (Text Message, Event: Reaction Add)
