@@ -9,7 +9,7 @@ __Steps:__
 - new (Pharse ON, Reaction: ❌)
 - end (Embed Message)
 - reroll (Text Message)
-- 🎉 (Text Message, Event: Reaction Add)
+- 🎉 (Private Embed Message, Event: Reaction Add)
 - 👥 (Private Embed Message, Event: Reaction Add)
 - ❌ (Embed Message, Event: Reaction Add, **Administrator Privilege**)
 
