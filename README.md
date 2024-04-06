@@ -1,4 +1,4 @@
-# Giveaway in BCFD (v1.3)
+# Giveaway in BCFD (v1.5)
 Welcome to the source code! Feel free to use these scripts in any project you want.
 
 __Steps:__
