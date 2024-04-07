@@ -22,6 +22,5 @@ try {
   
 } catch(e) {
   // Leave this blank...
-  title = e
 }
 $halt $get(title)
